@@ -10,6 +10,7 @@ import javax.persistence.*;
  */
 @Entity
 @NamedQuery(name="Achievementofcharacter.findAll", query="SELECT a FROM Achievementofcharacter a")
+
 public class Achievementofcharacter implements Serializable {
 	private static final long serialVersionUID = 1L;
 
